@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="youtility.Ifire">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Frame BackgroundColor="Green" Padding="24" CornerRadius="0">
+                <Label Text="Welcome to iFire" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" />
+
+
+            </Frame>
+
+            <Image x:Name="iconImages"
+               Aspect="AspectFit"
+               HorizontalOptions="FillAndExpand"
+               HeightRequest="50"
+               Margin="0, 0, 0, 50" />
+
+            <Entry x:Name="Udgifter" Placeholder="Samlet leveomkostninger pr. måned"
+               HorizontalOptions="CenterAndExpand"/>
+            <Button x:Name="Cal" Text="Beregn" Clicked="Cal_Clicked" BackgroundColor="Green" TextColor="White" HorizontalOptions="CenterAndExpand" />
+
+            <Label x:Name="res" Text="Portefølje størrelse" HorizontalOptions="CenterAndExpand" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:youtility="clr-namespace:youtility"
+             x:Class="youtility.Tabbed">
+  <!--Pages can be added as references or inline-->
+  <!--<ContentPage: Title="Tab 1" />
+  <ContentPage Title="Tab 2" />
+  <ContentPage Title="Tab 3" />-->
+
+
+
+
+
+    <youtility:Login Title="Login"></youtility:Login>
+    <youtility:Ifire Title="Ifire"></youtility:Ifire>
+    <youtility:Convert Title="Convert"></youtility:Convert>
+
+
+
+
+
+
+
+
+
+</TabbedPage>
